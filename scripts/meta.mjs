@@ -102,7 +102,7 @@ export const PACKS = [
   { key: 'Blocky Winter & Christmas', name: 'Blocky Winter & Christmas', url: 'https://vuena.itch.io/blocky-winter-christmas', contents: '43 winter and Christmas props plus 3 rigged characters with 30 animations.', formats: 'GLB, FBX (Unity)' },
   { key: 'PSX Retro Horror Props Kit', name: 'PSX Retro Horror Props Kit', url: 'https://vuena.itch.io/psx-retro-horror-props-kit', contents: '158 low-poly PS1-style horror props.', formats: 'GLB, FBX (Godot)' },
   { key: 'PSX First-Person Arms & Items Kit', name: 'PSX First-Person Arms & Items Kit', url: 'https://vuena.itch.io/psx-first-person-arms-kit', contents: 'Rigged first-person arms with 21 animations and 30 held items.', formats: 'GLB, FBX (Godot)' },
-  { key: 'Blocky Monsters', name: 'Blocky Monsters (Halloween)', url: null, contents: 'Rigged blocky monsters and Halloween props. No separate paid page is live right now; the free models stay available here.', formats: 'GLB, FBX' },
+  { key: 'Blocky Monsters', name: 'Blocky Monsters (Halloween)', url: 'https://vuena.itch.io/blocky-characters-48', contents: 'Rigged blocky monsters and Halloween props.', note: 'Monsters are a bonus in the Blocky Characters pack', formats: 'GLB, FBX' },
 ];
 // Bundle: every pack plus future packs.
 export const BUNDLE = { name: 'Vuena All-in-1', url: 'https://vuena.itch.io/complete-collection', contents: 'Every Vuena 3D asset pack plus future packs, in one purchase.' };

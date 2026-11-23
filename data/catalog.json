@@ -89,8 +89,9 @@
   {
    "key": "Blocky Monsters",
    "name": "Blocky Monsters (Halloween)",
-   "url": null,
-   "contents": "Rigged blocky monsters and Halloween props. No separate paid page is live right now; the free models stay available here.",
+   "url": "https://vuena.itch.io/blocky-characters-48",
+   "contents": "Rigged blocky monsters and Halloween props.",
+   "note": "Monsters are a bonus in the Blocky Characters pack",
    "formats": "GLB, FBX"
   }
  ],
@@ -671,7 +672,7 @@
    "preview": "https://vuena-assets.test-games.workers.dev/previews/monster_01_pumpkinhead.png",
    "license": "CC0-1.0",
    "source_pack": "Blocky Monsters (Halloween)",
-   "full_pack_url": null,
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
    "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
    "bytes": 411272,
    "sha256": "86d6228fda66b8828b6a22b644300c99bdbbc528a44094b4dd3c40d2f12d58b8"
@@ -718,7 +719,7 @@
    "preview": "https://vuena-assets.test-games.workers.dev/previews/monster_03_ghost.png",
    "license": "CC0-1.0",
    "source_pack": "Blocky Monsters (Halloween)",
-   "full_pack_url": null,
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
    "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
    "bytes": 344200,
    "sha256": "3d2789781d165bbfd5db4999a2aa44512a4465ebb42cc2090eed86714cee9d96"
@@ -766,7 +767,7 @@
    "preview": "https://vuena-assets.test-games.workers.dev/previews/monster_10_skeleton.png",
    "license": "CC0-1.0",
    "source_pack": "Blocky Monsters (Halloween)",
-   "full_pack_url": null,
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
    "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
    "bytes": 594672,
    "sha256": "f07789c191ae4359f8b74c03d1efc8f6dfbc1f9fe9c26e58021e7cc8597f9d8c"
@@ -1841,7 +1842,7 @@
    "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_02_pumpkin_medium.png",
    "license": "CC0-1.0",
    "source_pack": "Blocky Monsters (Halloween)",
-   "full_pack_url": null,
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
    "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
    "bytes": 38544,
    "sha256": "dab3f1eba740b0a46de26aeb85b7b2a558ce26d2e5150d5bab778a579a5134cf"
@@ -1875,7 +1876,7 @@
    "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_04_jackolantern.png",
    "license": "CC0-1.0",
    "source_pack": "Blocky Monsters (Halloween)",
-   "full_pack_url": null,
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
    "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
    "bytes": 64760,
    "sha256": "2f7df01e7882b437216bfa41e955c348821a275b16a81f3a8d80323b800afb76"
@@ -1910,7 +1911,7 @@
    "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_05_gravestone_round.png",
    "license": "CC0-1.0",
    "source_pack": "Blocky Monsters (Halloween)",
-   "full_pack_url": null,
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
    "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
    "bytes": 59420,
    "sha256": "e875219cfaf203136f90a520a9f7caf680bc4a4fe81a7a6807d48b704836390a"
@@ -1944,7 +1945,7 @@
    "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_08_candle.png",
    "license": "CC0-1.0",
    "source_pack": "Blocky Monsters (Halloween)",
-   "full_pack_url": null,
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
    "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
    "bytes": 30020,
    "sha256": "9888f1f70e57d8b174877f6f4e189af78de4e1b91d23cd2d4a08ec067f9d64f8"
@@ -1978,7 +1979,7 @@
    "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_20_skull.png",
    "license": "CC0-1.0",
    "source_pack": "Blocky Monsters (Halloween)",
-   "full_pack_url": null,
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
    "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
    "bytes": 40684,
    "sha256": "70dfc0096fabd89727dc5ce56a614d5fb949693928116e72606e8cd46b472da3"

@@ -26,6 +26,7 @@ export interface Pack {
   name: string;
   url: string | null;
   contents: string;
+  note?: string;
   formats: string;
 }
 export interface Catalog {
@@ -130,7 +131,7 @@ function full(c: Catalog, m: Model) {
     how_to_use: `Download ${m.formats.glb} (curl -L -o ${m.id}.glb "${m.formats.glb}") or call download_asset in the local stdio server.`,
     license_note: c.license.note,
     full_pack_note: m.full_pack_url
-      ? `This model is a free sample from "${m.source_pack}". The paid pack has many more models in the same style: ${m.full_pack_url} (optional, you never need it to use this model).`
+      ? `This model is a free sample from "${m.source_pack}". ${c.packs.find((p) => p.name === m.source_pack)?.note ? c.packs.find((p) => p.name === m.source_pack)!.note + '. ' : ''}The paid pack has many more models in the same style: ${m.full_pack_url} (optional, you never need it to use this model).`
       : `This model is a free sample from "${m.source_pack}". There is no paid pack page for it right now.`,
   };
 }
@@ -194,7 +195,7 @@ export function createServer(c: Catalog, opts: { download?: DownloadFn; transpor
     return asText({
       note: 'Everything served by this MCP is free CC0. The packs below are separate paid products on itch.io (the free models are samples of them). Nothing here is required; no account or key is needed to use the free models.',
       free_download: { name: 'Vuena Free Mega Starter (all free models as GLB + FBX with textures)', url: c.free_download_url, models_here: c.count },
-      packs: c.packs.map((p) => ({ name: p.name, url: p.url, contents: p.contents, formats: p.formats, free_models_from_this_pack_in_this_server: counts.get(p.name) ?? 0 })),
+      packs: c.packs.map((p) => ({ name: p.name, url: p.url, contents: p.contents, ...(p.note ? { note: p.note } : {}), formats: p.formats, free_models_from_this_pack_in_this_server: counts.get(p.name) ?? 0 })),
       bundle: c.bundle,
     });
   });
