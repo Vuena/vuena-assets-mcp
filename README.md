@@ -1,5 +1,7 @@
 # vuena-assets
 
+[![vuena-assets MCP server](https://glama.ai/mcp/servers/Vuena/vuena-assets-mcp/badge)](https://glama.ai/mcp/servers/Vuena/vuena-assets-mcp)
+
 A free MCP server that lets AI coding assistants (Claude Code, Cursor, Claude Desktop and any other MCP client) **search and download 76 free CC0 low-poly 3D models** straight into your game project.
 
 - 76 models as GLB: rigged characters, animals, toy cars, Halloween and winter props, PSX-style horror props, and store / gas station / factory / apartment items.
