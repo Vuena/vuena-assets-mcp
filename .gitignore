@@ -11,3 +11,5 @@ worker/public/manifest.json
 worker/public/catalog.json
 worker/public/_headers
 *.log
+LAUNCH-POSTS.md
+SHIPPED-*.md
