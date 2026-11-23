@@ -3,10 +3,26 @@
   "name": "io.github.Vuena/vuena-assets",
   "title": "Vuena Assets",
   "description": "Search and download 76 free CC0 low-poly 3D models (GLB) into your game project.",
-  "repository": { "url": "https://github.com/Vuena/vuena-assets-mcp", "source": "github" },
-  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/Vuena/vuena-assets-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
   "websiteUrl": "https://vuena-assets.test-games.workers.dev",
   "remotes": [
-    { "type": "streamable-http", "url": "https://vuena-assets.test-games.workers.dev/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://vuena-assets.test-games.workers.dev/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "vuena-assets-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
   ]
 }

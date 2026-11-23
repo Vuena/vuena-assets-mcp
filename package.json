@@ -1,6 +1,6 @@
 {
   "name": "vuena-assets-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Free MCP server: search and download Vuena's CC0 low-poly 3D models (GLB) into your game project from Claude Code, Cursor, Claude Desktop and other MCP clients.",
   "type": "module",
   "license": "MIT",
