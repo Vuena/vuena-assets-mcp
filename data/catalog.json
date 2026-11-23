@@ -1,0 +1,2890 @@
+{
+ "schema": 1,
+ "name": "vuena-assets",
+ "generated": "2026-11-23",
+ "base_url": "https://vuena-assets.test-games.workers.dev",
+ "license": {
+  "id": "CC0-1.0",
+  "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "note": "All listed models are CC0 1.0 (public domain). Use freely, including commercially, no credit needed."
+ },
+ "ai_disclosure": "The models are generated procedurally by code written with AI assistance. No AI image or 3D generators were used for the meshes.",
+ "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+ "bundle": {
+  "name": "Vuena All-in-1",
+  "url": "https://vuena.itch.io/complete-collection",
+  "contents": "Every Vuena 3D asset pack plus future packs, in one purchase."
+ },
+ "packs": [
+  {
+   "key": "Store Simulator Kit",
+   "name": "Store & Supermarket Simulator Kit",
+   "url": "https://vuena.itch.io/store-simulator-kit",
+   "contents": "317 realistic PBR assets for supermarket and shop games (shelving, products, checkout and more).",
+   "formats": "GLB, FBX (Unity, Unreal, Godot)"
+  },
+  {
+   "key": "Gas Station Simulator Kit",
+   "name": "Gas Station + Roadside Cafe Simulator Kit",
+   "url": "https://vuena.itch.io/gas-station-simulator-kit",
+   "contents": "290 PBR assets for a gas station and roadside cafe game.",
+   "formats": "GLB, FBX (Unity, Unreal, Godot)"
+  },
+  {
+   "key": "Modular Apartment Interior Kit",
+   "name": "Modular Apartment Interior Kit",
+   "url": "https://vuena.itch.io/modular-apartment-interior-kit",
+   "contents": "200 PBR assets for modular apartment interiors.",
+   "formats": "GLB, FBX (Unity, Unreal, Godot)"
+  },
+  {
+   "key": "Factory Simulator Kit",
+   "name": "Factory & Production Line Simulator Kit",
+   "url": "https://vuena.itch.io/factory-simulator-kit",
+   "contents": "167 PBR assets for factory and production-line games.",
+   "formats": "GLB, FBX (Unity, Unreal, Godot)"
+  },
+  {
+   "key": "48 Rigged Characters + 30 Animations",
+   "name": "Rigged Blocky Characters",
+   "url": "https://vuena.itch.io/blocky-characters-48",
+   "contents": "61 low-poly rigged characters on a shared skeleton, plus 30 animations.",
+   "formats": "GLB, FBX (Unity, Unreal, Godot)"
+  },
+  {
+   "key": "50 Low-Poly Toy Cars",
+   "name": "Low-Poly Toy Cars",
+   "url": "https://vuena.itch.io/toy-cars-20",
+   "contents": "50 toy cars with separate wheels and 3 colourways.",
+   "formats": "GLB, FBX (Unity, Godot)"
+  },
+  {
+   "key": "Cute Pets & Wildlife",
+   "name": "Cute Pets & Wildlife",
+   "url": "https://vuena.itch.io/blocky-pets-wildlife",
+   "contents": "70 rigged low-poly animals sharing 13 animation clips.",
+   "formats": "GLB, FBX (Unity, Unreal, Godot)"
+  },
+  {
+   "key": "Blocky Winter & Christmas",
+   "name": "Blocky Winter & Christmas",
+   "url": "https://vuena.itch.io/blocky-winter-christmas",
+   "contents": "43 winter and Christmas props plus 3 rigged characters with 30 animations.",
+   "formats": "GLB, FBX (Unity)"
+  },
+  {
+   "key": "PSX Retro Horror Props Kit",
+   "name": "PSX Retro Horror Props Kit",
+   "url": "https://vuena.itch.io/psx-retro-horror-props-kit",
+   "contents": "158 low-poly PS1-style horror props.",
+   "formats": "GLB, FBX (Godot)"
+  },
+  {
+   "key": "PSX First-Person Arms & Items Kit",
+   "name": "PSX First-Person Arms & Items Kit",
+   "url": "https://vuena.itch.io/psx-first-person-arms-kit",
+   "contents": "Rigged first-person arms with 21 animations and 30 held items.",
+   "formats": "GLB, FBX (Godot)"
+  },
+  {
+   "key": "Blocky Monsters",
+   "name": "Blocky Monsters (Halloween)",
+   "url": null,
+   "contents": "Rigged blocky monsters and Halloween props. No separate paid page is live right now; the free models stay available here.",
+   "formats": "GLB, FBX"
+  }
+ ],
+ "count": 76,
+ "models": [
+  {
+   "id": "animal_cat",
+   "name": "Cat",
+   "description": "Cat. Rigged with 12 animation clips. 9,640 triangles, about 0.40 x 0.56 x 0.56 m (x, y, z).",
+   "category": "animals",
+   "tags": [
+    "animals",
+    "cat",
+    "kitten",
+    "pet",
+    "domestic",
+    "feline",
+    "cute",
+    "blocky"
+   ],
+   "tris": 9640,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "idle_alt",
+    "walk",
+    "run",
+    "jump",
+    "eat",
+    "sit",
+    "sleep",
+    "attack",
+    "call",
+    "hit",
+    "death"
+   ],
+   "size_m": [
+    0.4,
+    0.56,
+    0.56
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/animal_cat.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/animal_cat.png",
+   "license": "CC0-1.0",
+   "source_pack": "Cute Pets & Wildlife",
+   "full_pack_url": "https://vuena.itch.io/blocky-pets-wildlife",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 916960,
+   "sha256": "6ee0d19a14d55dd503c9305c09c5b5407215bf1af1f7fc9b4d3c29ada018990b"
+  },
+  {
+   "id": "animal_fox",
+   "name": "Fox",
+   "description": "Fox. Rigged with 12 animation clips. 9,800 triangles, about 0.43 x 0.64 x 0.93 m (x, y, z).",
+   "category": "animals",
+   "tags": [
+    "animals",
+    "fox",
+    "wildlife",
+    "forest",
+    "wild",
+    "cute",
+    "blocky"
+   ],
+   "tris": 9800,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "idle_alt",
+    "walk",
+    "run",
+    "jump",
+    "eat",
+    "sit",
+    "sleep",
+    "attack",
+    "call",
+    "hit",
+    "death"
+   ],
+   "size_m": [
+    0.43,
+    0.64,
+    0.93
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/animal_fox.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/animal_fox.png",
+   "license": "CC0-1.0",
+   "source_pack": "Cute Pets & Wildlife",
+   "full_pack_url": "https://vuena.itch.io/blocky-pets-wildlife",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 899940,
+   "sha256": "bc7b70f7885f7dc07585aaee47b779bdc3d869141394dd1e867e1ac0ad4dd06c"
+  },
+  {
+   "id": "animal_owl",
+   "name": "Owl",
+   "description": "Owl. Rigged with 12 animation clips. 10,584 triangles, about 0.47 x 0.64 x 0.36 m (x, y, z).",
+   "category": "animals",
+   "tags": [
+    "animals",
+    "owl",
+    "bird",
+    "wildlife",
+    "night",
+    "flying",
+    "cute",
+    "blocky"
+   ],
+   "tris": 10584,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "idle_alt",
+    "walk",
+    "fly",
+    "jump",
+    "eat",
+    "sit",
+    "sleep",
+    "attack",
+    "call",
+    "hit",
+    "death"
+   ],
+   "size_m": [
+    0.47,
+    0.64,
+    0.36
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/animal_owl.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/animal_owl.png",
+   "license": "CC0-1.0",
+   "source_pack": "Cute Pets & Wildlife",
+   "full_pack_url": "https://vuena.itch.io/blocky-pets-wildlife",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 848444,
+   "sha256": "0c445b7364fcf88b81c8300e4b953947bc911ee4dff2d51bb6a81fa7ceda0a22"
+  },
+  {
+   "id": "prop_igloo",
+   "name": "Igloo",
+   "description": "Igloo. 4,412 triangles, about 3.88 x 2.12 x 4.66 m (x, y, z).",
+   "category": "buildings",
+   "tags": [
+    "buildings",
+    "igloo",
+    "ice house",
+    "winter",
+    "snow",
+    "arctic",
+    "shelter",
+    "building",
+    "blocky"
+   ],
+   "tris": 4412,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    3.88,
+    2.12,
+    4.66
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_igloo.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_igloo.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Winter & Christmas",
+   "full_pack_url": "https://vuena.itch.io/blocky-winter-christmas",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 309600,
+   "sha256": "f85c69e9f9de11125c6305d9be1f316d3a4fcc256dd45208766939cbdf755e20"
+  },
+  {
+   "id": "blocky_01_hero",
+   "name": "Hero",
+   "description": "Hero. Rigged with 10 animation clips. 2,976 triangles, about 1.05 x 1.80 x 0.85 m (x, y, z).",
+   "category": "characters",
+   "tags": [
+    "characters",
+    "hero",
+    "adventurer",
+    "player",
+    "humanoid",
+    "person",
+    "rpg",
+    "blocky"
+   ],
+   "tris": 2976,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "punch",
+    "death",
+    "cheer",
+    "dance"
+   ],
+   "size_m": [
+    1.05,
+    1.8,
+    0.85
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/blocky_01_hero.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/blocky_01_hero.png",
+   "license": "CC0-1.0",
+   "source_pack": "Rigged Blocky Characters",
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 370208,
+   "sha256": "36716caf7c324157741885bd5f7ed6127e2df86fecd2f091c218c24712bd7472"
+  },
+  {
+   "id": "blocky_03_knight",
+   "name": "Knight",
+   "description": "Knight. Rigged with 10 animation clips. 3,792 triangles, about 1.10 x 2.13 x 1.39 m (x, y, z).",
+   "category": "characters",
+   "tags": [
+    "characters",
+    "knight",
+    "armor",
+    "medieval",
+    "fantasy",
+    "warrior",
+    "humanoid",
+    "rpg",
+    "blocky"
+   ],
+   "tris": 3792,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "punch",
+    "death",
+    "cheer",
+    "dance"
+   ],
+   "size_m": [
+    1.1,
+    2.13,
+    1.39
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/blocky_03_knight.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/blocky_03_knight.png",
+   "license": "CC0-1.0",
+   "source_pack": "Rigged Blocky Characters",
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 409564,
+   "sha256": "03171f559c08330fdb9ea6a7a6ff7e20b12930934f528040d185013de9472762"
+  },
+  {
+   "id": "blocky_05_wizard",
+   "name": "Wizard",
+   "description": "Wizard. Rigged with 10 animation clips. 3,936 triangles, about 1.19 x 2.79 x 1.31 m (x, y, z).",
+   "category": "characters",
+   "tags": [
+    "characters",
+    "wizard",
+    "mage",
+    "magic",
+    "fantasy",
+    "witch",
+    "humanoid",
+    "rpg",
+    "blocky"
+   ],
+   "tris": 3936,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "punch",
+    "death",
+    "cheer",
+    "dance"
+   ],
+   "size_m": [
+    1.19,
+    2.79,
+    1.31
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/blocky_05_wizard.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/blocky_05_wizard.png",
+   "license": "CC0-1.0",
+   "source_pack": "Rigged Blocky Characters",
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 415420,
+   "sha256": "e9d0b76a0c92c416937ac72464c10fd61ce734eeb85db68349a90eb6c9361eaa"
+  },
+  {
+   "id": "blocky_06_pirate",
+   "name": "Pirate",
+   "description": "Pirate. Rigged with 10 animation clips. 4,464 triangles, about 1.23 x 2.10 x 1.33 m (x, y, z).",
+   "category": "characters",
+   "tags": [
+    "characters",
+    "pirate",
+    "sailor",
+    "captain",
+    "humanoid",
+    "adventure",
+    "blocky"
+   ],
+   "tris": 4464,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "punch",
+    "death",
+    "cheer",
+    "dance"
+   ],
+   "size_m": [
+    1.23,
+    2.1,
+    1.33
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/blocky_06_pirate.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/blocky_06_pirate.png",
+   "license": "CC0-1.0",
+   "source_pack": "Rigged Blocky Characters",
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 449372,
+   "sha256": "560fb362329fceca010d59f515586b18a110a11d84eda39f2450b7b4dacbd611"
+  },
+  {
+   "id": "blocky_07_astronaut",
+   "name": "Astronaut",
+   "description": "Astronaut. Rigged with 10 animation clips. 4,628 triangles, about 1.18 x 2.38 x 1.15 m (x, y, z).",
+   "category": "characters",
+   "tags": [
+    "characters",
+    "astronaut",
+    "space",
+    "spaceman",
+    "sci-fi",
+    "humanoid",
+    "blocky"
+   ],
+   "tris": 4628,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "punch",
+    "death",
+    "cheer",
+    "dance"
+   ],
+   "size_m": [
+    1.18,
+    2.38,
+    1.15
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/blocky_07_astronaut.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/blocky_07_astronaut.png",
+   "license": "CC0-1.0",
+   "source_pack": "Rigged Blocky Characters",
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 450820,
+   "sha256": "86d478fc38869c0096acfb6b9a33d203b94a045c8e0da0bb85f4f3d9ea4ec868"
+  },
+  {
+   "id": "blocky_08_robot",
+   "name": "Robot",
+   "description": "Robot. Rigged with 10 animation clips. 2,504 triangles, about 1.05 x 2.12 x 0.80 m (x, y, z).",
+   "category": "characters",
+   "tags": [
+    "characters",
+    "robot",
+    "android",
+    "mech",
+    "sci-fi",
+    "machine",
+    "blocky"
+   ],
+   "tris": 2504,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "punch",
+    "death",
+    "cheer",
+    "dance"
+   ],
+   "size_m": [
+    1.05,
+    2.12,
+    0.8
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/blocky_08_robot.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/blocky_08_robot.png",
+   "license": "CC0-1.0",
+   "source_pack": "Rigged Blocky Characters",
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 339344,
+   "sha256": "3aba9e9dccd38147f7adccff8b10d44e325c8a3f96e84e7b1d61a24c2563d5ff"
+  },
+  {
+   "id": "blocky_09_zombie",
+   "name": "Zombie",
+   "description": "Zombie. Rigged with 10 animation clips. 2,466 triangles, about 1.05 x 2.07 x 0.83 m (x, y, z).",
+   "category": "characters",
+   "tags": [
+    "characters",
+    "zombie",
+    "undead",
+    "horror",
+    "enemy",
+    "humanoid",
+    "monster",
+    "blocky"
+   ],
+   "tris": 2466,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "punch",
+    "death",
+    "cheer",
+    "dance"
+   ],
+   "size_m": [
+    1.05,
+    2.07,
+    0.83
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/blocky_09_zombie.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/blocky_09_zombie.png",
+   "license": "CC0-1.0",
+   "source_pack": "Rigged Blocky Characters",
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 344264,
+   "sha256": "66092da33ca7009fccb2ed17a17c689d013662b0914e20909e19671bc1d8198c"
+  },
+  {
+   "id": "blocky_19_princess",
+   "name": "Princess",
+   "description": "Princess. Rigged with 10 animation clips. 3,300 triangles, about 1.05 x 2.16 x 0.98 m (x, y, z).",
+   "category": "characters",
+   "tags": [
+    "characters",
+    "princess",
+    "queen",
+    "royal",
+    "fantasy",
+    "humanoid",
+    "blocky"
+   ],
+   "tris": 3300,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "punch",
+    "death",
+    "cheer",
+    "dance"
+   ],
+   "size_m": [
+    1.05,
+    2.16,
+    0.98
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/blocky_19_princess.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/blocky_19_princess.png",
+   "license": "CC0-1.0",
+   "source_pack": "Rigged Blocky Characters",
+   "full_pack_url": "https://vuena.itch.io/blocky-characters-48",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 386852,
+   "sha256": "6d81389ee5158dc9294ffc54ea32e4b75b92d051d947b81d244bd3844e75bf0d"
+  },
+  {
+   "id": "monster_01_pumpkinhead",
+   "name": "Pumpkinhead",
+   "description": "Pumpkinhead. Rigged with 12 animation clips. 3,536 triangles, about 1.05 x 2.08 x 0.95 m (x, y, z).",
+   "category": "creatures",
+   "tags": [
+    "creatures",
+    "pumpkin",
+    "halloween",
+    "monster",
+    "enemy",
+    "spooky",
+    "horror",
+    "blocky"
+   ],
+   "tris": 3536,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "attack_1",
+    "attack_2",
+    "hit",
+    "death",
+    "roar",
+    "spawn"
+   ],
+   "size_m": [
+    1.05,
+    2.08,
+    0.95
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/monster_01_pumpkinhead.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/monster_01_pumpkinhead.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Monsters (Halloween)",
+   "full_pack_url": null,
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 411272,
+   "sha256": "86d6228fda66b8828b6a22b644300c99bdbbc528a44094b4dd3c40d2f12d58b8"
+  },
+  {
+   "id": "monster_03_ghost",
+   "name": "Ghost",
+   "description": "Ghost. Rigged with 12 animation clips. 2,592 triangles, about 1.20 x 1.59 x 1.38 m (x, y, z).",
+   "category": "creatures",
+   "tags": [
+    "creatures",
+    "ghost",
+    "halloween",
+    "monster",
+    "enemy",
+    "spooky",
+    "spirit",
+    "blocky"
+   ],
+   "tris": 2592,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "attack_1",
+    "attack_2",
+    "hit",
+    "death",
+    "roar",
+    "spawn"
+   ],
+   "size_m": [
+    1.2,
+    1.59,
+    1.38
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/monster_03_ghost.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/monster_03_ghost.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Monsters (Halloween)",
+   "full_pack_url": null,
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 344200,
+   "sha256": "3d2789781d165bbfd5db4999a2aa44512a4465ebb42cc2090eed86714cee9d96"
+  },
+  {
+   "id": "monster_10_skeleton",
+   "name": "Skeleton",
+   "description": "Skeleton. Rigged with 12 animation clips. 7,056 triangles, about 1.07 x 1.74 x 0.81 m (x, y, z).",
+   "category": "creatures",
+   "tags": [
+    "creatures",
+    "skeleton",
+    "halloween",
+    "undead",
+    "monster",
+    "enemy",
+    "spooky",
+    "bones",
+    "blocky"
+   ],
+   "tris": 7056,
+   "rigged": true,
+   "animations": [
+    "idle",
+    "walk",
+    "run",
+    "jump",
+    "fall",
+    "wave",
+    "attack_1",
+    "attack_2",
+    "hit",
+    "death",
+    "roar",
+    "spawn"
+   ],
+   "size_m": [
+    1.07,
+    1.74,
+    0.81
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/monster_10_skeleton.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/monster_10_skeleton.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Monsters (Halloween)",
+   "full_pack_url": null,
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 594672,
+   "sha256": "f07789c191ae4359f8b74c03d1efc8f6dfbc1f9fe9c26e58021e7cc8597f9d8c"
+  },
+  {
+   "id": "sk_bakery_basket_baguette",
+   "name": "Baguette basket",
+   "description": "Baguette basket. 2,336 triangles, about 0.35 x 0.61 x 0.35 m (x, y, z). Round wicker basket, 6 standing baguettes.",
+   "category": "food",
+   "tags": [
+    "food",
+    "store",
+    "baguette",
+    "bread",
+    "basket",
+    "wicker",
+    "bakery",
+    "market",
+    "simulator"
+   ],
+   "tris": 2336,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.351,
+    0.606,
+    0.351
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_bakery_basket_baguette.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_bakery_basket_baguette.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 1362348,
+   "sha256": "c4fdb8866fcc2bee242b876b487f2917a3e974c5ed569c71b90d7a882224ef6f"
+  },
+  {
+   "id": "sk_bakery_basket_bread",
+   "name": "Bread basket",
+   "description": "Bread basket. 1,088 triangles, about 0.52 x 0.21 x 0.39 m (x, y, z). Low wicker basket, 4 loaves.",
+   "category": "food",
+   "tags": [
+    "food",
+    "store",
+    "bread",
+    "loaf",
+    "loaves",
+    "basket",
+    "wicker",
+    "bakery",
+    "market",
+    "simulator"
+   ],
+   "tris": 1088,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.524,
+    0.212,
+    0.394
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_bakery_basket_bread.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_bakery_basket_bread.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 1309696,
+   "sha256": "33f4c3a89add61855a7f9e844a59efb2c17e499361f6b681009de30054111d04"
+  },
+  {
+   "id": "sk_deli_cheese_wedge",
+   "name": "Cheese wedge",
+   "description": "Cheese wedge. 60 triangles, about 0.08 x 0.09 x 0.10 m (x, y, z). A single wedge.",
+   "category": "food",
+   "tags": [
+    "food",
+    "store",
+    "cheese",
+    "wedge",
+    "deli",
+    "dairy",
+    "market",
+    "grocery",
+    "simulator"
+   ],
+   "tris": 60,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.077,
+    0.085,
+    0.1
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_deli_cheese_wedge.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_deli_cheese_wedge.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 805424,
+   "sha256": "a065c077c200f0747c9094c76cd3f9b30a4cdcc485d0c5422d62c50b4b6c8d78"
+  },
+  {
+   "id": "sk_deli_cheese_wheel_cut",
+   "name": "Cheese wheel, cut",
+   "description": "Cheese wheel, cut. 300 triangles, about 0.20 x 0.09 x 0.19 m (x, y, z). Paper label, 60 degree wedge taken out.",
+   "category": "food",
+   "tags": [
+    "food",
+    "store",
+    "cheese",
+    "cheese wheel",
+    "deli",
+    "dairy",
+    "market",
+    "grocery",
+    "simulator"
+   ],
+   "tris": 300,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.2,
+    0.085,
+    0.187
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_deli_cheese_wheel_cut.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_deli_cheese_wheel_cut.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 812000,
+   "sha256": "f597983758a3c86b6747fa4a01ae6c7d7fbe7bd19f107b511ca46e791c169e83"
+  },
+  {
+   "id": "sk_prod_can_soda_a",
+   "name": "Soda can",
+   "description": "Soda can. 396 triangles, about 0.07 x 0.12 x 0.07 m (x, y, z).",
+   "category": "food",
+   "tags": [
+    "food",
+    "store",
+    "soda",
+    "can",
+    "drink",
+    "beverage",
+    "product",
+    "grocery",
+    "simulator"
+   ],
+   "tris": 396,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.07,
+    0.12,
+    0.07
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_prod_can_soda_a.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_prod_can_soda_a.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 180488,
+   "sha256": "599fbd75fa4a285d46d8845c5b5c6eeb059f0442c20984efebde2c226f07b17b"
+  },
+  {
+   "id": "sk_prod_cereal_l_a",
+   "name": "Cereal box",
+   "description": "Cereal box. 44 triangles, about 0.19 x 0.29 x 0.07 m (x, y, z).",
+   "category": "food",
+   "tags": [
+    "food",
+    "store",
+    "cereal",
+    "box",
+    "breakfast",
+    "product",
+    "grocery",
+    "simulator"
+   ],
+   "tris": 44,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.19,
+    0.29,
+    0.07
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_prod_cereal_l_a.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_prod_cereal_l_a.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 180920,
+   "sha256": "701d9c9c80c358cc358244a9e73ca3d07efce23a37c4d4a4538ad32e53b4ea47"
+  },
+  {
+   "id": "sk_produce_pile_apple",
+   "name": "Apples (crate fill)",
+   "description": "Apples (crate fill). 4,200 triangles, about 0.44 x 0.27 x 0.29 m (x, y, z). A ready-made pile of 42 apples.",
+   "category": "food",
+   "tags": [
+    "food",
+    "store",
+    "apple",
+    "apples",
+    "fruit",
+    "produce",
+    "crate",
+    "market",
+    "grocery",
+    "simulator"
+   ],
+   "tris": 4200,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.438,
+    0.267,
+    0.294
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_produce_pile_apple.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_produce_pile_apple.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 1019380,
+   "sha256": "96e456d5ea5c1d0a6e91417233ba946c32371b80d4e2cab96a900be1130cfad0"
+  },
+  {
+   "id": "sk_produce_pile_banana",
+   "name": "Bananas (crate fill)",
+   "description": "Bananas (crate fill). 3,540 triangles, about 0.42 x 0.25 x 0.26 m (x, y, z). 6 loose bunches.",
+   "category": "food",
+   "tags": [
+    "food",
+    "store",
+    "banana",
+    "bananas",
+    "fruit",
+    "produce",
+    "crate",
+    "market",
+    "grocery",
+    "simulator"
+   ],
+   "tris": 3540,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.417,
+    0.253,
+    0.26
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_produce_pile_banana.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_produce_pile_banana.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 1027904,
+   "sha256": "eff572c69928edace5adfbeb8e3817ca1b4fb161bc98356845f1b0e3b25128fa"
+  },
+  {
+   "id": "sk_produce_pile_lettuce",
+   "name": "Lettuce (crate fill)",
+   "description": "Lettuce (crate fill). 5,056 triangles, about 0.44 x 0.25 x 0.29 m (x, y, z). 8 heads.",
+   "category": "food",
+   "tags": [
+    "food",
+    "store",
+    "lettuce",
+    "salad",
+    "vegetable",
+    "produce",
+    "crate",
+    "market",
+    "grocery",
+    "simulator"
+   ],
+   "tris": 5056,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.436,
+    0.252,
+    0.286
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_produce_pile_lettuce.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_produce_pile_lettuce.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 970276,
+   "sha256": "92d8543a1d0028c91394b737d0a11ffde3759a3fe5f37fb13a7d1330bfc90012"
+  },
+  {
+   "id": "ap_armchair",
+   "name": "Armchair",
+   "description": "Armchair. 6,340 triangles, about 0.84 x 0.86 x 0.89 m (x, y, z).",
+   "category": "furniture",
+   "tags": [
+    "furniture",
+    "apartment",
+    "armchair",
+    "chair",
+    "seat",
+    "sofa",
+    "living room",
+    "interior"
+   ],
+   "tris": 6340,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.84,
+    0.86,
+    0.89
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/ap_armchair.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/ap_armchair.png",
+   "license": "CC0-1.0",
+   "source_pack": "Modular Apartment Interior Kit",
+   "full_pack_url": "https://vuena.itch.io/modular-apartment-interior-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 797260,
+   "sha256": "94df858cb0390be2b73132d4e3f222af4e184926d709fa28037d5ee6443fa141"
+  },
+  {
+   "id": "ap_coffee_table",
+   "name": "Coffee table",
+   "description": "Coffee table. 728 triangles, about 1.10 x 0.42 x 0.60 m (x, y, z).",
+   "category": "furniture",
+   "tags": [
+    "furniture",
+    "apartment",
+    "table",
+    "coffee table",
+    "wood",
+    "living room",
+    "interior"
+   ],
+   "tris": 728,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    1.1,
+    0.42,
+    0.6
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/ap_coffee_table.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/ap_coffee_table.png",
+   "license": "CC0-1.0",
+   "source_pack": "Modular Apartment Interior Kit",
+   "full_pack_url": "https://vuena.itch.io/modular-apartment-interior-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 522776,
+   "sha256": "91a6ded93f759977451c053002ddde3412821a57eb664f0161ffd10cd5a510dd"
+  },
+  {
+   "id": "ap_pillow_square",
+   "name": "Square cushion",
+   "description": "Square cushion. 1,152 triangles, about 0.46 x 0.46 x 0.12 m (x, y, z).",
+   "category": "furniture",
+   "tags": [
+    "furniture",
+    "apartment",
+    "cushion",
+    "pillow",
+    "sofa",
+    "living room",
+    "interior",
+    "decor"
+   ],
+   "tris": 1152,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.46,
+    0.46,
+    0.12
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/ap_pillow_square.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/ap_pillow_square.png",
+   "license": "CC0-1.0",
+   "source_pack": "Modular Apartment Interior Kit",
+   "full_pack_url": "https://vuena.itch.io/modular-apartment-interior-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 195360,
+   "sha256": "2415af989c820f1da995c2c0d730792a484f2fbc65d681bf6e099b20998528e7"
+  },
+  {
+   "id": "px_chair_wood",
+   "name": "Wooden chair",
+   "description": "Wooden chair. 108 triangles, about 0.42 x 0.95 x 0.42 m (x, y, z).",
+   "category": "furniture",
+   "tags": [
+    "furniture",
+    "psx",
+    "ps1",
+    "retro",
+    "chair",
+    "wooden",
+    "horror",
+    "low-poly"
+   ],
+   "tris": 108,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.42,
+    0.95,
+    0.42
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/px_chair_wood.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/px_chair_wood.png",
+   "license": "CC0-1.0",
+   "source_pack": "PSX Retro Horror Props Kit",
+   "full_pack_url": "https://vuena.itch.io/psx-retro-horror-props-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 94180,
+   "sha256": "bda2d393a662d85b6370ed6bbf4b0a31f2924e02df5e7ecc87706dbd2bc4cda8"
+  },
+  {
+   "id": "sk_shelf_wall_120",
+   "name": "Wall shelf unit",
+   "description": "Wall shelf unit. 1,284 triangles, about 1.20 x 1.96 x 0.43 m (x, y, z).",
+   "category": "furniture",
+   "tags": [
+    "furniture",
+    "store",
+    "shelf",
+    "shelving",
+    "wall",
+    "rack",
+    "retail",
+    "simulator"
+   ],
+   "tris": 1284,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    1.2,
+    1.96,
+    0.43
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_shelf_wall_120.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_shelf_wall_120.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 1262272,
+   "sha256": "c765171cf7ba0ea8e6db2d679625e3052a6cf949a5a84e8a65d55a2de92f5402"
+  },
+  {
+   "id": "prop_pine_snow_small",
+   "name": "Small snowy pine",
+   "description": "Small snowy pine. 1,684 triangles, about 1.33 x 2.01 x 1.40 m (x, y, z).",
+   "category": "nature",
+   "tags": [
+    "nature",
+    "tree",
+    "pine",
+    "fir",
+    "snow",
+    "snowy",
+    "winter",
+    "forest",
+    "evergreen",
+    "christmas",
+    "blocky"
+   ],
+   "tris": 1684,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    1.33,
+    2.01,
+    1.4
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_pine_snow_small.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_pine_snow_small.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Winter & Christmas",
+   "full_pack_url": "https://vuena.itch.io/blocky-winter-christmas",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 57852,
+   "sha256": "2c64d7972828c7be40ea7a286dfe61881eda954fd69eaf94dcf55e67625654a3"
+  },
+  {
+   "id": "prop_tree_small",
+   "name": "Small decorated tree",
+   "description": "Small decorated tree. 5,044 triangles, about 0.93 x 1.56 x 0.93 m (x, y, z).",
+   "category": "nature",
+   "tags": [
+    "nature",
+    "tree",
+    "christmas tree",
+    "fir",
+    "decorated",
+    "ornament",
+    "winter",
+    "holiday",
+    "blocky"
+   ],
+   "tris": 5044,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.93,
+    1.56,
+    0.93
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_tree_small.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_tree_small.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Winter & Christmas",
+   "full_pack_url": "https://vuena.itch.io/blocky-winter-christmas",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 156216,
+   "sha256": "225569af226ce1aad579eb4f2c9da9e0cf8184c944fa677079f97941b83df76a"
+  },
+  {
+   "id": "ap_mug",
+   "name": "Mug",
+   "description": "Mug. 880 triangles, about 0.13 x 0.09 x 0.09 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "apartment",
+    "mug",
+    "cup",
+    "coffee",
+    "tea",
+    "kitchen",
+    "interior",
+    "decor"
+   ],
+   "tris": 880,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.13,
+    0.09,
+    0.09
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/ap_mug.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/ap_mug.png",
+   "license": "CC0-1.0",
+   "source_pack": "Modular Apartment Interior Kit",
+   "full_pack_url": "https://vuena.itch.io/modular-apartment-interior-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 25216,
+   "sha256": "bf31fcd7e58c773894b42cb4a12cc851f4079427ad07afe9414e970b3d4c0e4b"
+  },
+  {
+   "id": "ap_plant_small",
+   "name": "Small potted plant",
+   "description": "Small potted plant. 2,948 triangles, about 0.30 x 0.22 x 0.32 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "apartment",
+    "plant",
+    "houseplant",
+    "pot",
+    "flower pot",
+    "nature",
+    "interior",
+    "decor"
+   ],
+   "tris": 2948,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.3,
+    0.22,
+    0.32
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/ap_plant_small.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/ap_plant_small.png",
+   "license": "CC0-1.0",
+   "source_pack": "Modular Apartment Interior Kit",
+   "full_pack_url": "https://vuena.itch.io/modular-apartment-interior-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 221568,
+   "sha256": "e028951a4663e4925f5bbf1cc157e606708adc0c0ca8d8e9e183ba23ee75f09a"
+  },
+  {
+   "id": "ap_table_lamp",
+   "name": "Table lamp",
+   "description": "Table lamp. 972 triangles, about 0.30 x 0.50 x 0.30 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "apartment",
+    "lamp",
+    "table lamp",
+    "light",
+    "lighting",
+    "interior",
+    "decor"
+   ],
+   "tris": 972,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.3,
+    0.5,
+    0.3
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/ap_table_lamp.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/ap_table_lamp.png",
+   "license": "CC0-1.0",
+   "source_pack": "Modular Apartment Interior Kit",
+   "full_pack_url": "https://vuena.itch.io/modular-apartment-interior-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 34208,
+   "sha256": "eda82eb6ba98629eaf134ae8c8bc404db87cd7c1fa2073b91ee880b5430372f0"
+  },
+  {
+   "id": "fk_barrel_steel",
+   "name": "Steel drum",
+   "description": "Steel drum. 1,240 triangles, about 0.60 x 0.88 x 0.60 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "factory",
+    "barrel",
+    "drum",
+    "steel",
+    "oil drum",
+    "industrial",
+    "simulator"
+   ],
+   "tris": 1240,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.6,
+    0.88,
+    0.6
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/fk_barrel_steel.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/fk_barrel_steel.png",
+   "license": "CC0-1.0",
+   "source_pack": "Factory & Production Line Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/factory-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 500980,
+   "sha256": "0e48f5f8c39721c8fb94e68b5a1331a84e3cb8b0d1eb7ef2090959c18a80e7d6"
+  },
+  {
+   "id": "fk_box_closed",
+   "name": "Taped carton",
+   "description": "Taped carton. 156 triangles, about 0.60 x 0.40 x 0.40 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "factory",
+    "box",
+    "carton",
+    "taped",
+    "cardboard",
+    "storage",
+    "warehouse",
+    "simulator"
+   ],
+   "tris": 156,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.6,
+    0.4,
+    0.4
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/fk_box_closed.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/fk_box_closed.png",
+   "license": "CC0-1.0",
+   "source_pack": "Factory & Production Line Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/factory-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 559636,
+   "sha256": "682f0da175ad815c2ef6e50368e67517d853fefc7db453615c2476686a0ca445"
+  },
+  {
+   "id": "fk_item_box",
+   "name": "Small product box",
+   "description": "Small product box. 68 triangles, about 0.30 x 0.20 x 0.20 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "factory",
+    "box",
+    "product",
+    "package",
+    "conveyor",
+    "warehouse",
+    "simulator"
+   ],
+   "tris": 68,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.3,
+    0.2,
+    0.2
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/fk_item_box.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/fk_item_box.png",
+   "license": "CC0-1.0",
+   "source_pack": "Factory & Production Line Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/factory-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 554488,
+   "sha256": "11fff6c04f09792addcefc5aaaa921cc2f4c58d951e200f0d0ecc5bdcb424393"
+  },
+  {
+   "id": "fk_pallet_wood",
+   "name": "Wooden pallet",
+   "description": "Wooden pallet. 880 triangles, about 1.20 x 0.14 x 0.80 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "factory",
+    "pallet",
+    "wood",
+    "wooden",
+    "warehouse",
+    "storage",
+    "industrial",
+    "simulator"
+   ],
+   "tris": 880,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    1.2,
+    0.14,
+    0.8
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/fk_pallet_wood.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/fk_pallet_wood.png",
+   "license": "CC0-1.0",
+   "source_pack": "Factory & Production Line Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/factory-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 336400,
+   "sha256": "452ee696e32a84afef098fd1f7ae06c3f7fa9a6b08e63b71a2c2a50a4568011a"
+  },
+  {
+   "id": "fk_traffic_barrier_2m",
+   "name": "Traffic barrier (2 m)",
+   "description": "Traffic barrier (2 m). 520 triangles, about 2.00 x 0.45 x 0.30 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "factory",
+    "barrier",
+    "safety",
+    "road",
+    "fence",
+    "warehouse",
+    "simulator"
+   ],
+   "tris": 520,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    2,
+    0.45,
+    0.3
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/fk_traffic_barrier_2m.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/fk_traffic_barrier_2m.png",
+   "license": "CC0-1.0",
+   "source_pack": "Factory & Production Line Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/factory-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 512304,
+   "sha256": "d2f0863fe0318ea77578e57225c94d331e56281ea534647add477488b050b8c8"
+  },
+  {
+   "id": "gs_bollard_steel",
+   "name": "Steel bollard",
+   "description": "Steel bollard. 508 triangles, about 0.18 x 1.00 x 0.18 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "gas station",
+    "bollard",
+    "post",
+    "steel",
+    "barrier",
+    "street",
+    "simulator"
+   ],
+   "tris": 508,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.18,
+    1,
+    0.18
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/gs_bollard_steel.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/gs_bollard_steel.png",
+   "license": "CC0-1.0",
+   "source_pack": "Gas Station + Roadside Cafe Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/gas-station-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 70988,
+   "sha256": "fa3a98b7d0f486ded79bd5e0cfaea71ced2ccf39a5e8c6b0329f70ed038c4148"
+  },
+  {
+   "id": "gs_cone_traffic",
+   "name": "Traffic cone",
+   "description": "Traffic cone. 500 triangles, about 0.36 x 0.70 x 0.36 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "gas station",
+    "traffic cone",
+    "cone",
+    "road",
+    "construction",
+    "street",
+    "simulator"
+   ],
+   "tris": 500,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.36,
+    0.7,
+    0.36
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/gs_cone_traffic.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/gs_cone_traffic.png",
+   "license": "CC0-1.0",
+   "source_pack": "Gas Station + Roadside Cafe Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/gas-station-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 19692,
+   "sha256": "fc49a2ab0ddedc40a47f1317195959cfb4cee8cda7804f33ef007e7e9b5b8723"
+  },
+  {
+   "id": "gs_jerry_can",
+   "name": "Jerry can",
+   "description": "Jerry can. 708 triangles, about 0.34 x 0.47 x 0.16 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "gas station",
+    "jerry can",
+    "fuel",
+    "petrol",
+    "can",
+    "garage",
+    "simulator"
+   ],
+   "tris": 708,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.34,
+    0.47,
+    0.16
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/gs_jerry_can.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/gs_jerry_can.png",
+   "license": "CC0-1.0",
+   "source_pack": "Gas Station + Roadside Cafe Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/gas-station-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 71280,
+   "sha256": "bc133a33004be75dde85c202c204b0c05a214b0776569549b3a8de903ac686eb"
+  },
+  {
+   "id": "gs_prod_oil_5l_a",
+   "name": "5 l motor-oil jug",
+   "description": "5 l motor-oil jug. 500 triangles, about 0.20 x 0.33 x 0.12 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "gas station",
+    "oil",
+    "motor oil",
+    "jug",
+    "bottle",
+    "garage",
+    "product",
+    "simulator"
+   ],
+   "tris": 500,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.2,
+    0.33,
+    0.12
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/gs_prod_oil_5l_a.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/gs_prod_oil_5l_a.png",
+   "license": "CC0-1.0",
+   "source_pack": "Gas Station + Roadside Cafe Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/gas-station-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 189992,
+   "sha256": "476bd6bc1797ebf42b71bb2a6948e5dc2373eae453be1d8d4b963f54d201ecb0"
+  },
+  {
+   "id": "gs_pump_modern",
+   "name": "Modern fuel pump",
+   "description": "Modern fuel pump. 3,628 triangles, about 1.00 x 2.30 x 0.68 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "gas station",
+    "fuel pump",
+    "petrol",
+    "pump",
+    "forecourt",
+    "car",
+    "simulator"
+   ],
+   "tris": 3628,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    1,
+    2.3,
+    0.68
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/gs_pump_modern.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/gs_pump_modern.png",
+   "license": "CC0-1.0",
+   "source_pack": "Gas Station + Roadside Cafe Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/gas-station-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 691768,
+   "sha256": "35ab0630ef6e9a6d342386b88208609a03bef8f9bf2435e50fd3f4d86d689c98"
+  },
+  {
+   "id": "gs_tire",
+   "name": "Tyre",
+   "description": "Tyre. 1,080 triangles, about 0.21 x 0.65 x 0.65 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "gas station",
+    "tire",
+    "tyre",
+    "wheel",
+    "rubber",
+    "garage",
+    "car",
+    "simulator"
+   ],
+   "tris": 1080,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.21,
+    0.65,
+    0.65
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/gs_tire.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/gs_tire.png",
+   "license": "CC0-1.0",
+   "source_pack": "Gas Station + Roadside Cafe Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/gas-station-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 351136,
+   "sha256": "d413367f049983995a71c3d06168b2d423c629f1fe728f7cbf4f5fca091140f7"
+  },
+  {
+   "id": "prop_02_pumpkin_medium",
+   "name": "Pumpkin (medium)",
+   "description": "Pumpkin (medium). 1,412 triangles, about 0.46 x 0.49 x 0.48 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "pumpkin",
+    "halloween",
+    "vegetable",
+    "autumn",
+    "spooky",
+    "decoration",
+    "blocky"
+   ],
+   "tris": 1412,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.46,
+    0.49,
+    0.48
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_02_pumpkin_medium.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_02_pumpkin_medium.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Monsters (Halloween)",
+   "full_pack_url": null,
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 38544,
+   "sha256": "dab3f1eba740b0a46de26aeb85b7b2a558ce26d2e5150d5bab778a579a5134cf"
+  },
+  {
+   "id": "prop_04_jackolantern",
+   "name": "Jack-o-lantern",
+   "description": "Jack-o-lantern. 2,168 triangles, about 0.55 x 0.59 x 0.60 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "jack-o-lantern",
+    "pumpkin",
+    "halloween",
+    "lantern",
+    "spooky",
+    "decoration",
+    "blocky"
+   ],
+   "tris": 2168,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.55,
+    0.59,
+    0.6
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_04_jackolantern.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_04_jackolantern.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Monsters (Halloween)",
+   "full_pack_url": null,
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 64760,
+   "sha256": "2f7df01e7882b437216bfa41e955c348821a275b16a81f3a8d80323b800afb76"
+  },
+  {
+   "id": "prop_05_gravestone_round",
+   "name": "Round gravestone",
+   "description": "Round gravestone. 1,240 triangles, about 1.00 x 1.38 x 0.70 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "gravestone",
+    "tombstone",
+    "grave",
+    "graveyard",
+    "cemetery",
+    "halloween",
+    "spooky",
+    "blocky"
+   ],
+   "tris": 1240,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    1,
+    1.38,
+    0.7
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_05_gravestone_round.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_05_gravestone_round.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Monsters (Halloween)",
+   "full_pack_url": null,
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 59420,
+   "sha256": "e875219cfaf203136f90a520a9f7caf680bc4a4fe81a7a6807d48b704836390a"
+  },
+  {
+   "id": "prop_08_candle",
+   "name": "Candle",
+   "description": "Candle. 700 triangles, about 0.31 x 0.48 x 0.24 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "candle",
+    "halloween",
+    "light",
+    "fire",
+    "spooky",
+    "decoration",
+    "blocky"
+   ],
+   "tris": 700,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.31,
+    0.48,
+    0.24
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_08_candle.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_08_candle.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Monsters (Halloween)",
+   "full_pack_url": null,
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 30020,
+   "sha256": "9888f1f70e57d8b174877f6f4e189af78de4e1b91d23cd2d4a08ec067f9d64f8"
+  },
+  {
+   "id": "prop_20_skull",
+   "name": "Skull",
+   "description": "Skull. 1,080 triangles, about 0.28 x 0.31 x 0.29 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "skull",
+    "bones",
+    "halloween",
+    "death",
+    "spooky",
+    "decoration",
+    "blocky"
+   ],
+   "tris": 1080,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.28,
+    0.31,
+    0.29
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_20_skull.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_20_skull.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Monsters (Halloween)",
+   "full_pack_url": null,
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 40684,
+   "sha256": "70dfc0096fabd89727dc5ce56a614d5fb949693928116e72606e8cd46b472da3"
+  },
+  {
+   "id": "prop_candy_cane",
+   "name": "Candy cane",
+   "description": "Candy cane. 596 triangles, about 0.74 x 1.74 x 0.28 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "candy cane",
+    "christmas",
+    "winter",
+    "sweet",
+    "candy",
+    "holiday",
+    "decoration",
+    "blocky"
+   ],
+   "tris": 596,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.74,
+    1.74,
+    0.28
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_candy_cane.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_candy_cane.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Winter & Christmas",
+   "full_pack_url": "https://vuena.itch.io/blocky-winter-christmas",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 36272,
+   "sha256": "c36bd47b093dc6d7bd739be5ab8206412a4b617cd281b93b6ea44ec60ab33faf"
+  },
+  {
+   "id": "prop_lantern_post",
+   "name": "Lantern post",
+   "description": "Lantern post. 1,892 triangles, about 0.84 x 2.89 x 0.80 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "lantern",
+    "lamp post",
+    "street lamp",
+    "light",
+    "christmas",
+    "winter",
+    "street",
+    "blocky"
+   ],
+   "tris": 1892,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.84,
+    2.89,
+    0.8
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_lantern_post.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_lantern_post.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Winter & Christmas",
+   "full_pack_url": "https://vuena.itch.io/blocky-winter-christmas",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 80860,
+   "sha256": "0356729d949b197efe23d8f3fd0a74d123e9455ae37b6a65658c41bcb7ae7791"
+  },
+  {
+   "id": "prop_present_blue",
+   "name": "Present (blue)",
+   "description": "Present (blue). 344 triangles, about 0.44 x 0.40 x 0.61 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "present",
+    "gift",
+    "box",
+    "christmas",
+    "winter",
+    "holiday",
+    "blue",
+    "blocky"
+   ],
+   "tris": 344,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.44,
+    0.4,
+    0.61
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_present_blue.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_present_blue.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Winter & Christmas",
+   "full_pack_url": "https://vuena.itch.io/blocky-winter-christmas",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 24840,
+   "sha256": "1d706a13427ccdc14bdbd3f38db71c292b830844b7a6cdab24f4165806642942"
+  },
+  {
+   "id": "prop_present_red",
+   "name": "Present (red)",
+   "description": "Present (red). 344 triangles, about 0.55 x 0.55 x 0.55 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "present",
+    "gift",
+    "box",
+    "christmas",
+    "winter",
+    "holiday",
+    "red",
+    "blocky"
+   ],
+   "tris": 344,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.55,
+    0.55,
+    0.55
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_present_red.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_present_red.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Winter & Christmas",
+   "full_pack_url": "https://vuena.itch.io/blocky-winter-christmas",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 24840,
+   "sha256": "926bd084af19ef7cbb38b9eeec2ecc4deaf71e37fd0432ef66dabcc86841abe4"
+  },
+  {
+   "id": "prop_sled",
+   "name": "Sled",
+   "description": "Sled. 924 triangles, about 0.71 x 0.28 x 1.67 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "sled",
+    "sleigh",
+    "toboggan",
+    "winter",
+    "snow",
+    "wood",
+    "blocky"
+   ],
+   "tris": 924,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.71,
+    0.28,
+    1.67
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_sled.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_sled.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Winter & Christmas",
+   "full_pack_url": "https://vuena.itch.io/blocky-winter-christmas",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 72788,
+   "sha256": "e356d870a327b1de0062aa2b4d99aea54113537ff73cd15043014d9cd7a733ef"
+  },
+  {
+   "id": "prop_snowman_classic",
+   "name": "Classic snowman",
+   "description": "Classic snowman. 2,452 triangles, about 1.80 x 2.25 x 1.00 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "snowman",
+    "snow",
+    "winter",
+    "christmas",
+    "carrot",
+    "blocky"
+   ],
+   "tris": 2452,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    1.8,
+    2.25,
+    1
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_snowman_classic.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_snowman_classic.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Winter & Christmas",
+   "full_pack_url": "https://vuena.itch.io/blocky-winter-christmas",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 85852,
+   "sha256": "e9cb0633281cd5aff5f7c4afbdf43a59e0d4c42f5cc3713b5e6f2c4c201aa03e"
+  },
+  {
+   "id": "prop_wreath",
+   "name": "Wreath",
+   "description": "Wreath. 1,628 triangles, about 1.06 x 1.13 x 0.36 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "wreath",
+    "christmas",
+    "door",
+    "holly",
+    "winter",
+    "holiday",
+    "decoration",
+    "blocky"
+   ],
+   "tris": 1628,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    1.06,
+    1.13,
+    0.36
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/prop_wreath.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/prop_wreath.png",
+   "license": "CC0-1.0",
+   "source_pack": "Blocky Winter & Christmas",
+   "full_pack_url": "https://vuena.itch.io/blocky-winter-christmas",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 63708,
+   "sha256": "9da34f6e86b7131169fad0f550a8a2e61e36181eccac16a44bee80edefaf91b0"
+  },
+  {
+   "id": "px_barrel",
+   "name": "Barrel",
+   "description": "Barrel. 246 triangles, about 0.60 x 0.89 x 0.58 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "psx",
+    "ps1",
+    "retro",
+    "barrel",
+    "industrial",
+    "horror",
+    "low-poly"
+   ],
+   "tris": 246,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.6,
+    0.89,
+    0.58
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/px_barrel.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/px_barrel.png",
+   "license": "CC0-1.0",
+   "source_pack": "PSX Retro Horror Props Kit",
+   "full_pack_url": "https://vuena.itch.io/psx-retro-horror-props-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 102944,
+   "sha256": "29ba7d942143a62525426d00f55d131c16be846de13847d591306790aaabfe65"
+  },
+  {
+   "id": "px_candle",
+   "name": "Candle",
+   "description": "Candle. 188 triangles, about 0.13 x 0.17 x 0.12 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "psx",
+    "ps1",
+    "retro",
+    "candle",
+    "light",
+    "horror",
+    "low-poly"
+   ],
+   "tris": 188,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.13,
+    0.17,
+    0.12
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/px_candle.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/px_candle.png",
+   "license": "CC0-1.0",
+   "source_pack": "PSX Retro Horror Props Kit",
+   "full_pack_url": "https://vuena.itch.io/psx-retro-horror-props-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 31956,
+   "sha256": "13aba4b771f829d04010edc70ab1538714c26e9deac32117f179390f30f5a724"
+  },
+  {
+   "id": "px_crate_wood",
+   "name": "Wooden crate",
+   "description": "Wooden crate. 322 triangles, about 0.75 x 0.72 x 0.75 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "psx",
+    "ps1",
+    "retro",
+    "crate",
+    "box",
+    "wooden",
+    "horror",
+    "low-poly"
+   ],
+   "tris": 322,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.75,
+    0.72,
+    0.75
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/px_crate_wood.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/px_crate_wood.png",
+   "license": "CC0-1.0",
+   "source_pack": "PSX Retro Horror Props Kit",
+   "full_pack_url": "https://vuena.itch.io/psx-retro-horror-props-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 103400,
+   "sha256": "78d8fc0b80ac406b6592b45df3b0b206715a37de868d2f87ffa1849dfdac0376"
+  },
+  {
+   "id": "px_fp_battery",
+   "name": "Battery (hand-held)",
+   "description": "Battery (hand-held). 92 triangles, about 0.04 x 0.04 x 0.07 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "psx",
+    "ps1",
+    "retro",
+    "battery",
+    "first person",
+    "held item",
+    "flashlight",
+    "horror",
+    "low-poly"
+   ],
+   "tris": 92,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.04,
+    0.04,
+    0.07
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/px_fp_battery.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/px_fp_battery.png",
+   "license": "CC0-1.0",
+   "source_pack": "PSX First-Person Arms & Items Kit",
+   "full_pack_url": "https://vuena.itch.io/psx-first-person-arms-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 25388,
+   "sha256": "bd6a56c542c80bf32a22346d4cca204d2dc7bfe370e3b5f2732684fd2023cc85"
+  },
+  {
+   "id": "px_fp_candle",
+   "name": "Candle (hand-held)",
+   "description": "Candle (hand-held). 224 triangles, about 0.09 x 0.14 x 0.18 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "psx",
+    "ps1",
+    "retro",
+    "candle",
+    "first person",
+    "held item",
+    "horror",
+    "low-poly"
+   ],
+   "tris": 224,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.09,
+    0.14,
+    0.18
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/px_fp_candle.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/px_fp_candle.png",
+   "license": "CC0-1.0",
+   "source_pack": "PSX First-Person Arms & Items Kit",
+   "full_pack_url": "https://vuena.itch.io/psx-first-person-arms-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 33024,
+   "sha256": "691dbd2799668dd4365f485477f2da86047add1784d3b93f45257b8e08d59bb8"
+  },
+  {
+   "id": "px_fp_keycard",
+   "name": "Keycard (hand-held)",
+   "description": "Keycard (hand-held). 116 triangles, about 0.09 x 0.15 x 0.03 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "psx",
+    "ps1",
+    "retro",
+    "keycard",
+    "key card",
+    "first person",
+    "held item",
+    "horror",
+    "low-poly"
+   ],
+   "tris": 116,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.09,
+    0.15,
+    0.03
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/px_fp_keycard.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/px_fp_keycard.png",
+   "license": "CC0-1.0",
+   "source_pack": "PSX First-Person Arms & Items Kit",
+   "full_pack_url": "https://vuena.itch.io/psx-first-person-arms-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 22392,
+   "sha256": "b91978e62ea4fe8cfe90f026c5491b8115083686a73fa504e8d633b8e8fef581"
+  },
+  {
+   "id": "px_fp_note",
+   "name": "Paper note (hand-held)",
+   "description": "Paper note (hand-held). 16 triangles, about 0.12 x 0.01 x 0.14 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "psx",
+    "ps1",
+    "retro",
+    "note",
+    "paper",
+    "first person",
+    "held item",
+    "horror",
+    "low-poly"
+   ],
+   "tris": 16,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.12,
+    0.01,
+    0.14
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/px_fp_note.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/px_fp_note.png",
+   "license": "CC0-1.0",
+   "source_pack": "PSX First-Person Arms & Items Kit",
+   "full_pack_url": "https://vuena.itch.io/psx-first-person-arms-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 20532,
+   "sha256": "3378c1edcad8dc9f9d21be5c7bf5905ffeef8cdd1b2e5c324a2a475dc6a737c5"
+  },
+  {
+   "id": "px_note_paper",
+   "name": "Paper note",
+   "description": "Paper note. 76 triangles, about 0.15 x 0.00 x 0.20 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "psx",
+    "ps1",
+    "retro",
+    "note",
+    "paper",
+    "letter",
+    "clue",
+    "horror",
+    "low-poly"
+   ],
+   "tris": 76,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.15,
+    0,
+    0.2
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/px_note_paper.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/px_note_paper.png",
+   "license": "CC0-1.0",
+   "source_pack": "PSX Retro Horror Props Kit",
+   "full_pack_url": "https://vuena.itch.io/psx-retro-horror-props-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 26808,
+   "sha256": "c0f7892f55e2437edfdd3ef8c231e154442bb99d7356011b54792d48c86c0688"
+  },
+  {
+   "id": "px_vhs_tape",
+   "name": "VHS tape",
+   "description": "VHS tape. 66 triangles, about 0.19 x 0.02 x 0.11 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "psx",
+    "ps1",
+    "retro",
+    "vhs",
+    "tape",
+    "video",
+    "horror",
+    "electronics",
+    "low-poly"
+   ],
+   "tris": 66,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.19,
+    0.02,
+    0.11
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/px_vhs_tape.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/px_vhs_tape.png",
+   "license": "CC0-1.0",
+   "source_pack": "PSX Retro Horror Props Kit",
+   "full_pack_url": "https://vuena.itch.io/psx-retro-horror-props-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 26872,
+   "sha256": "5fd6362c7906462ef84e82d7eb7a59f76af8561c2f1dcf64e0ca628037bfef40"
+  },
+  {
+   "id": "sk_carton_s",
+   "name": "Cardboard carton",
+   "description": "Cardboard carton. 150 triangles, about 0.30 x 0.17 x 0.20 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "store",
+    "box",
+    "carton",
+    "cardboard",
+    "storage",
+    "crate",
+    "simulator"
+   ],
+   "tris": 150,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.3,
+    0.17,
+    0.2
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_carton_s.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_carton_s.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 646268,
+   "sha256": "829d101f2d56fb22db79bd1dc8e52b96bc5ea7d5f0122818bed1de2c3f1340b9"
+  },
+  {
+   "id": "sk_pos_till",
+   "name": "POS till with sliding drawer",
+   "description": "POS till with sliding drawer. 996 triangles, about 0.46 x 0.55 x 0.40 m (x, y, z).",
+   "category": "props",
+   "tags": [
+    "props",
+    "store",
+    "shop",
+    "checkout",
+    "cash register",
+    "till",
+    "pos",
+    "counter",
+    "retail",
+    "simulator"
+   ],
+   "tris": 996,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.46,
+    0.55,
+    0.4
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_pos_till.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_pos_till.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 343056,
+   "sha256": "ea916340b3c01450666cef55d7883445705bfa1cbe36ae1ddb21dd1fe788c854"
+  },
+  {
+   "id": "fk_sign_forklift",
+   "name": "Forklift warning sign",
+   "description": "Forklift warning sign. 44 triangles, about 0.30 x 0.40 x 0.00 m (x, y, z).",
+   "category": "signage",
+   "tags": [
+    "signage",
+    "factory",
+    "sign",
+    "warning",
+    "forklift",
+    "safety",
+    "warehouse",
+    "simulator"
+   ],
+   "tris": 44,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.3,
+    0.4,
+    0
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/fk_sign_forklift.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/fk_sign_forklift.png",
+   "license": "CC0-1.0",
+   "source_pack": "Factory & Production Line Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/factory-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 259828,
+   "sha256": "ced2f98710ad1141a889ccde45c0bbaec32c805b93d9bc55c652d40a2ef76916"
+  },
+  {
+   "id": "sk_price_tag_shelf",
+   "name": "Shelf price tag",
+   "description": "Shelf price tag. 44 triangles, about 0.09 x 0.04 x 0.00 m (x, y, z).",
+   "category": "signage",
+   "tags": [
+    "signage",
+    "store",
+    "price tag",
+    "label",
+    "shelf",
+    "retail",
+    "simulator"
+   ],
+   "tris": 44,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.09,
+    0.04,
+    0
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_price_tag_shelf.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_price_tag_shelf.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 252148,
+   "sha256": "af096c97724ab2b401755b0a54808fc56ac8b28420468cb0b08254f1625a16f4"
+  },
+  {
+   "id": "sk_sign_crate_price_clip",
+   "name": "Price sign (deli / crate)",
+   "description": "Price sign (deli / crate). 332 triangles, about 0.13 x 0.15 x 0.02 m (x, y, z). Chalk-style price board on a clip, reads 1.99 / kg.",
+   "category": "signage",
+   "tags": [
+    "signage",
+    "store",
+    "price sign",
+    "chalk",
+    "chalkboard",
+    "price",
+    "market",
+    "deli",
+    "simulator"
+   ],
+   "tris": 332,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    0.128,
+    0.154,
+    0.02
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/sk_sign_crate_price_clip.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/sk_sign_crate_price_clip.png",
+   "license": "CC0-1.0",
+   "source_pack": "Store & Supermarket Simulator Kit",
+   "full_pack_url": "https://vuena.itch.io/store-simulator-kit",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 813048,
+   "sha256": "e6ecd5c38d93347c5c5692bd6bb26fe3ea13b5fb47a2877bb7543c592ca3ffb5"
+  },
+  {
+   "id": "fire_red",
+   "name": "Fire truck (red)",
+   "description": "Fire truck (red). 6,388 triangles, about 2.27 x 2.01 x 4.35 m (x, y, z).",
+   "category": "vehicles",
+   "tags": [
+    "vehicles",
+    "car",
+    "fire truck",
+    "fire engine",
+    "emergency",
+    "truck",
+    "toy",
+    "red",
+    "blocky"
+   ],
+   "tris": 6388,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    2.27,
+    2.01,
+    4.35
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/fire_red.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/fire_red.png",
+   "license": "CC0-1.0",
+   "source_pack": "Low-Poly Toy Cars",
+   "full_pack_url": "https://vuena.itch.io/toy-cars-20",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 338148,
+   "sha256": "29f8e6857ff5c6b06fc7579a315cccb02f12f642675a27df1d9d6925b20c6084"
+  },
+  {
+   "id": "icecream_pink",
+   "name": "Ice cream van (pink)",
+   "description": "Ice cream van (pink). 6,300 triangles, about 2.44 x 2.88 x 3.72 m (x, y, z).",
+   "category": "vehicles",
+   "tags": [
+    "vehicles",
+    "car",
+    "ice cream van",
+    "ice cream truck",
+    "van",
+    "toy",
+    "pink",
+    "blocky"
+   ],
+   "tris": 6300,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    2.44,
+    2.88,
+    3.72
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/icecream_pink.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/icecream_pink.png",
+   "license": "CC0-1.0",
+   "source_pack": "Low-Poly Toy Cars",
+   "full_pack_url": "https://vuena.itch.io/toy-cars-20",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 322744,
+   "sha256": "1be1fecfdb433f878bc45e7e0bb843353bae69cfa3a50c181eb640677a3b2e4c"
+  },
+  {
+   "id": "monster_orange",
+   "name": "Monster truck (orange)",
+   "description": "Monster truck (orange). 7,804 triangles, about 2.74 x 2.71 x 4.23 m (x, y, z).",
+   "category": "vehicles",
+   "tags": [
+    "vehicles",
+    "car",
+    "monster truck",
+    "truck",
+    "offroad",
+    "toy",
+    "orange",
+    "blocky"
+   ],
+   "tris": 7804,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    2.74,
+    2.71,
+    4.23
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/monster_orange.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/monster_orange.png",
+   "license": "CC0-1.0",
+   "source_pack": "Low-Poly Toy Cars",
+   "full_pack_url": "https://vuena.itch.io/toy-cars-20",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 409444,
+   "sha256": "97628e02185e5aff86f4de8f1c1d243a1fa947224027bfe431127c0d5042719a"
+  },
+  {
+   "id": "muscle_blue",
+   "name": "Muscle car (blue)",
+   "description": "Muscle car (blue). 6,664 triangles, about 1.91 x 1.35 x 3.64 m (x, y, z).",
+   "category": "vehicles",
+   "tags": [
+    "vehicles",
+    "car",
+    "muscle car",
+    "sports car",
+    "toy",
+    "racing",
+    "blue",
+    "blocky"
+   ],
+   "tris": 6664,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    1.91,
+    1.35,
+    3.64
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/muscle_blue.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/muscle_blue.png",
+   "license": "CC0-1.0",
+   "source_pack": "Low-Poly Toy Cars",
+   "full_pack_url": "https://vuena.itch.io/toy-cars-20",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 325276,
+   "sha256": "a27f8e4db5428e74486611ce04e859dfd3579b7d88ad15d33d7e0e3107e12a7a"
+  },
+  {
+   "id": "police_classic",
+   "name": "Police car",
+   "description": "Police car. 5,783 triangles, about 1.95 x 1.57 x 3.88 m (x, y, z).",
+   "category": "vehicles",
+   "tags": [
+    "vehicles",
+    "car",
+    "police",
+    "cop",
+    "emergency",
+    "toy",
+    "sedan",
+    "blocky"
+   ],
+   "tris": 5783,
+   "rigged": false,
+   "animations": [],
+   "size_m": [
+    1.95,
+    1.57,
+    3.88
+   ],
+   "formats": {
+    "glb": "https://vuena-assets.test-games.workers.dev/models/police_classic.glb"
+   },
+   "preview": "https://vuena-assets.test-games.workers.dev/previews/police_classic.png",
+   "license": "CC0-1.0",
+   "source_pack": "Low-Poly Toy Cars",
+   "full_pack_url": "https://vuena.itch.io/toy-cars-20",
+   "free_download_url": "https://vuena.itch.io/vuena-free-mega-starter",
+   "bytes": 300448,
+   "sha256": "25515d92981eab7800ccc9f15b2f33b4c9c59423e90a113bd6929151a1798d6d"
+  }
+ ]
+}

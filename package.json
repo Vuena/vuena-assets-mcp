@@ -1,0 +1,60 @@
+{
+  "name": "vuena-assets-mcp",
+  "version": "0.1.0",
+  "description": "Free MCP server: search and download Vuena's CC0 low-poly 3D models (GLB) into your game project from Claude Code, Cursor, Claude Desktop and other MCP clients.",
+  "type": "module",
+  "license": "MIT",
+  "mcpName": "io.github.Vuena/vuena-assets",
+  "bin": {
+    "vuena-assets-mcp": "dist/stdio.js"
+  },
+  "main": "dist/stdio.js",
+  "files": [
+    "dist",
+    "data/catalog.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "3d-models",
+    "glb",
+    "cc0",
+    "game-assets",
+    "low-poly",
+    "threejs",
+    "godot",
+    "unity",
+    "claude-code",
+    "cursor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vuena/vuena-assets-mcp.git"
+  },
+  "homepage": "https://vuena-assets.workers.dev",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "catalog": "node scripts/build-catalog.mjs",
+    "dev:worker": "wrangler dev",
+    "deploy:worker": "wrangler deploy",
+    "test": "node scripts/test-stdio.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "gltf-validator": "^2.0.0-dev.3.10",
+    "three": "^0.170.0",
+    "typescript": "^5.6.0",
+    "wrangler": "^4.0.0"
+  }
+}
